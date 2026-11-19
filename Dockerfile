@@ -1,5 +1,5 @@
 # Langflow for Railway: the official image, pinned by version and digest.
-FROM langflowai/langflow:1.13.2@sha256:4cfba8c49c4dba081964f9096bc8b9169f99f7c720000a9563a2fd1296a35e9f
+FROM langflowai/langflow:1.13.3@sha256:0dea79f5a557e1602b5514973484332f479cdb6b71cceb098536ecc231b02d7d
 
 # Railway mounts volumes as root, so run as root to write to /app/langflow.
 USER root

@@ -4,7 +4,7 @@
 
 This repository is the source of the [Langflow template on Railway](https://railway.com/deploy/langflow-1) (`langflow-1`). It deploys:
 
-- **Langflow 1.13.2**, built from this repo. The `Dockerfile` pins the official image `langflowai/langflow:1.13.2` by digest and adds a small start script.
+- **Langflow 1.13.3**, built from this repo. The `Dockerfile` pins the official image `langflowai/langflow:1.13.3` by digest and adds a small start script.
 - **PostgreSQL 16.14** (`postgres:16.14-trixie`, pinned image) for users, flows, credentials and messages.
 - Volumes for Langflow's config directory (`/app/langflow`) and for the database.
 
